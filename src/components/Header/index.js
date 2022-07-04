@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import * as C from './styles';
 import { SiFacebook, SiNintendogamecube, SiMessenger } from 'react-icons/si';
 import { FiSearch, FiMenu } from 'react-icons/fi';
+import sim from '../../images/sim.jpg'
 import {
   MdOndemandVideo,
   MdHome,
@@ -20,7 +21,7 @@ const Header = () => {
     <C.Container>
       <C.Content>
         <C.Section className="section1">
-          <SiFacebook color="#046ee5" />
+         <C.ImageSim src={sim} alt='Profile_image'/>
           <C.DivSearch>
             <FiSearch />
             <C.Input placeholder="Pesquisar no Facebook" />

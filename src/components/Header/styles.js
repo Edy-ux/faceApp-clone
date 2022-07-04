@@ -89,3 +89,7 @@ export const Image = styled.img`
   margin-right: 10px;
   cursor: pointer;
 `;
+export const ImageSim = styled.img`
+  border-radius: 50%;
+  margin-right: 10px;
+`

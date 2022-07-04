@@ -3,7 +3,6 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   align-items: center;
-  /* flex-direction: column; */
   gap: 10px;
   padding: 10px;
   font-size: 14px;
@@ -35,6 +34,7 @@ export const Container = styled.div`
 
 export const Label = styled.label`
   overflow: hidden;
+ 
   text-overflow: ellipsis;
   @media (max-width: 680px) {
     display: none;

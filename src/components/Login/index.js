@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import FacebookLogin from 'react-facebook-login';
-import IconFace from './IconFace';
+// import IconFace from './IconFace';
 import { FaFacebookF } from 'react-icons/fa';
 import { AuthContext } from '../../contexts/auth';
 

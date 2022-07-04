@@ -1,36 +1,40 @@
 import React from 'react';
 import ConcactItem from '../ContactItem';
 import * as C from './styles';
-import { FiSearch } from "react-icons/fi";
+import { FiSearch } from 'react-icons/fi';
 import { RiVideoAddFill } from 'react-icons/ri';
 import { GoKebabHorizontal } from 'react-icons/go';
+import Header from './header';
 
-import bezos from '../../images/bezos.jpg';
-import bill from '../../images/bill.jpg';
-import mark from '../../images/mark.jpg';
+import geovani from '../../images/geovani.jpg';
+import roberto from '../../images/roberto.jpg';
+import rossoni from '../../images/rossoni.jpg';
+import fabricio from '../../images/fabricio.jpg';
 import elon from '../../images/elon.jpg';
+
+
 
 const Contacts = () => {
   const itens = [
-    { src: bezos, name: 'Jeff Bezoz' },
-    { src: bill, name: 'Bill Gates' },
-    { src: mark, name: 'Mark Zuckerberg' },
+    { src: geovani, name: 'Geovani' },
+    { src: fabricio, name: 'Fabricio' },
+    { src: roberto, name: 'Roberto' },
+    { src: rossoni, name: 'Marcelo Rossoni' },
     { src: elon, name: 'Elon Musk' },
   ];
 
   return (
     <C.Container>
       <C.Header>
-        <C.Label>Contatos</C.Label>
         <C.HeaderIcons>
-          <RiVideoAddFill />
-          <FiSearch />
-          <GoKebabHorizontal />
+          <Header />
         </C.HeaderIcons>
       </C.Header>
-      {itens.map(({ src, name }, index) => {
-        return <ConcactItem key={index} src={src} name={name}></ConcactItem>;
-      })}
+      <>
+        {itens.map(({ src, name }, index) => (
+          <ConcactItem key={index} src={src} name={name} />
+        ))}
+      </>
     </C.Container>
   );
 };

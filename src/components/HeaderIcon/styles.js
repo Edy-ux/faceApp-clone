@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+
 export const Container = styled.div`
   width: 100%;
   height: 45px;
@@ -24,7 +25,7 @@ export const Container = styled.div`
       height: 16px;
     }
   }
-  @media (max-width: 825px) {
+  @media screen and (max-width: 825px) {
     display: ${(props) => (props.display !== 'web' ? 'flex' : 'none')};
   }
   @media (max-width: 530px) {
