@@ -1,17 +1,14 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
-
   max-width: 300px;
   width: 17%;
-  
   @media (max-width: 680px) {
     width: auto;
     position: absolute;
     left: 10px;
   }
 `;
-
 
 export const ProfileContent = styled.div`
   display: flex;

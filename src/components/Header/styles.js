@@ -29,6 +29,7 @@ export const Section = styled.section`
   img {
     width: 32px;
     height: 32px;
+    cursor: pointer;
     @media (max-width: 350px) {
       width: 25px;
       height: 25px;

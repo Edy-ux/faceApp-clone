@@ -5,7 +5,7 @@ export const Container = styled.div`
   align-items: center;
   gap: 10px;
   padding: 10px;
-  font-size: 14px;
+  font-size: 12px;
   cursor: pointer;
   font-weight: 500;
   border-radius: 8px;
@@ -14,8 +14,8 @@ export const Container = styled.div`
     background-color: #0000000d;
   }
   svg {
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
   }
 `;
 

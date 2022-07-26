@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import * as C from './styles';
 import { SiFacebook, SiNintendogamecube, SiMessenger } from 'react-icons/si';
 import { FiSearch, FiMenu } from 'react-icons/fi';
-import sim from '../../images/sim.jpg'
+import sim from '../../images/logo192.png'
 import {
   MdOndemandVideo,
   MdHome,

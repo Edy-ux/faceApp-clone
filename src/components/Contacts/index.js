@@ -15,6 +15,7 @@ import elon from '../../images/elon.jpg';
 
 
 const Contacts = () => {
+
   const itens = [
     { src: geovani, name: 'Geovani' },
     { src: fabricio, name: 'Fabricio' },
@@ -23,6 +24,7 @@ const Contacts = () => {
     { src: elon, name: 'Elon Musk' },
   ];
 
+  
   return (
     <C.Container>
       <C.Header>
@@ -35,7 +37,7 @@ const Contacts = () => {
           <ConcactItem key={index} src={src} name={name} />
         ))}
       </>
-    </C.Container>
+      </C.Container>
   );
 };
 

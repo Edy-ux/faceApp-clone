@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
@@ -17,7 +17,7 @@ export const Container = styled.div`
   img {
     width: 20px;
     height: 20px;
-    color: ${(props) => (props.colorIcon ? props.colorIcon : '#1b74e4')};
+    color: ${(props) => (props.colorIcon ? props.colorIcon : "#1b74e4")};
     @media (max-width: 550px) {
       display: none;
     }
@@ -34,7 +34,6 @@ export const Container = styled.div`
 
 export const Label = styled.label`
   overflow: hidden;
- 
   text-overflow: ellipsis;
   @media (max-width: 680px) {
     display: none;
