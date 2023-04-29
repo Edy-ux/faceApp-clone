@@ -16,7 +16,7 @@ const Login = () => {
       <C.Container>
         <FaFacebookF />
         <FacebookLogin
-          appId="5116345745155533"
+          appId="3591318074488442"
           fields="name,email,picture"
           callback={signInWithFacebook}
           icon="fa-facebook-f"
