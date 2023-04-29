@@ -1,7 +1,6 @@
 import { createContext, useEffect, useState } from 'react';
 
 export const AuthContext = createContext({});
-//ID APP 5116345745155533
 
 const AuthProvider = ({ children }) => {
 
